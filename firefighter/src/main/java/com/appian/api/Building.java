@@ -1,4 +1,4 @@
-package main.api;
+package com.appian.api;
 
 import main.api.exceptions.FireproofBuildingException;
 import main.api.exceptions.NoFireFoundException;

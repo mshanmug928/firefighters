@@ -1,4 +1,4 @@
-package main.api.exceptions;
+package com.appian.api.exceptions;
 
 public class OutOfCityBoundsException extends RuntimeException {
   public OutOfCityBoundsException() {

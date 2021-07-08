@@ -1,8 +1,8 @@
-package main.api;
+package com.appian.api;
 
 import java.util.List;
 
-import main.api.exceptions.FireproofBuildingException;
+import com.appian.api.exceptions.FireproofBuildingException;
 
 /**
  * Utility class to set fires in a city

@@ -1,13 +1,13 @@
-package main.impls;
+package com.appian.impls;
 
-import main.api.Building;
-import main.api.CityNode;
-import main.api.FireDispatch;
-import main.api.exceptions.InvalidDimensionException;
-import main.api.exceptions.OutOfCityBoundsException;
-import main.firefighters.FireDispatchImpl;
+import com.appian.api.Building;
+import com.appian.api.CityNode;
+import com.appian.api.FireDispatch;
+import com.appian.api.exceptions.InvalidDimensionException;
+import com.appian.api.exceptions.OutOfCityBoundsException;
+import com.appian.firefighters.FireDispatchImpl;
 
-public class CityImpl implements main.api.City {
+public class CityImpl implements com.appian.api.City {
   private final FireStation fireStation;
   private final Building[][] buildingGrid;
   private FireDispatch fireDispatch;

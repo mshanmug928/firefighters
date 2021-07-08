@@ -1,17 +1,17 @@
-package main.scenarios;
+package com.appian.scenarios;
 
 import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import main.api.City;
-import main.api.CityNode;
-import main.api.FireDispatch;
-import main.api.Firefighter;
-import main.api.Pyromaniac;
-import main.api.exceptions.FireproofBuildingException;
-import main.impls.CityImpl;
+import com.appian.api.City;
+import com.appian.api.CityNode;
+import com.appian.api.FireDispatch;
+import com.appian.api.Firefighter;
+import com.appian.api.Pyromaniac;
+import com.appian.api.exceptions.FireproofBuildingException;
+import com.appian.impls.CityImpl;
 
 public class BasicScenarios {
   @Test

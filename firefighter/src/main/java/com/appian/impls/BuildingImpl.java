@@ -1,9 +1,9 @@
-package main.impls;
+package com.appian.impls;
 
-import main.api.Building;
-import main.api.CityNode;
-import main.api.exceptions.FireproofBuildingException;
-import main.api.exceptions.NoFireFoundException;
+import com.appian.api.Building;
+import com.appian.api.CityNode;
+import com.appian.api.exceptions.FireproofBuildingException;
+import com.appian.api.exceptions.NoFireFoundException;
 
 public class BuildingImpl implements Building {
   private final CityNode location;

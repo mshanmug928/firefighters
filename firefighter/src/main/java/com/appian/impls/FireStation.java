@@ -1,6 +1,6 @@
-package main.impls;
+package com.appian.impls;
 
-import main.api.CityNode;
+import com.appian.api.CityNode;
 
 public class FireStation extends BuildingImpl {
 

@@ -1,6 +1,6 @@
-package main.api;
+package com.appian.api;
 
-import main.api.exceptions.OutOfCityBoundsException;
+import com.appian.api.exceptions.OutOfCityBoundsException;
 
 public interface City {
 

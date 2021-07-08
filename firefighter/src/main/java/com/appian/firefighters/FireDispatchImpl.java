@@ -1,11 +1,11 @@
-package main.firefighters;
+package com.appian.firefighters;
 
 import java.util.List;
 
-import main.api.City;
-import main.api.CityNode;
-import main.api.FireDispatch;
-import main.api.Firefighter;
+import com.appian.api.City;
+import com.appian.api.CityNode;
+import com.appian.api.FireDispatch;
+import com.appian.api.Firefighter;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class FireDispatchImpl implements FireDispatch {
