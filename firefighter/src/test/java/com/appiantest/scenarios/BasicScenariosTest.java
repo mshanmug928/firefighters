@@ -1,4 +1,4 @@
-package com.appian;
+package com.appiantest.scenarios;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ import com.appian.api.Pyromaniac;
 import com.appian.api.exceptions.FireproofBuildingException;
 import com.appian.impls.CityImpl;
 
-public class BasicScenarios {
+public class BasicScenariosTest {
   @Test
   public void singleFire() throws FireproofBuildingException {
     City basicCity = new CityImpl(5, 5, new CityNode(0, 0));

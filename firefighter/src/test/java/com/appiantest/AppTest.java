@@ -1,4 +1,4 @@
-package com.appian;
+package com.appiantest;
 
 import static org.junit.Assert.assertTrue;
 
