@@ -1,7 +1,7 @@
 package com.appian.api;
 
-import main.api.exceptions.FireproofBuildingException;
-import main.api.exceptions.NoFireFoundException;
+import com.appian.api.exceptions.FireproofBuildingException;
+import com.appian.api.exceptions.NoFireFoundException;
 
 public interface Building {
   /**

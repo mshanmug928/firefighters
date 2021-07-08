@@ -1,4 +1,4 @@
-package com.appian.scenarios;
+package com.appian;
 
 import java.util.List;
 

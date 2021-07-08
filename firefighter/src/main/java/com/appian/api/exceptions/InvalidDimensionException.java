@@ -1,4 +1,4 @@
-package main.api.exceptions;
+package com.appian.api.exceptions;
 
 public class InvalidDimensionException extends RuntimeException {
   public InvalidDimensionException(int invalidDimension) {

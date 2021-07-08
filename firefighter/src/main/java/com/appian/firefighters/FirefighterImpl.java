@@ -1,7 +1,7 @@
-package main.firefighters;
+package com.appian.firefighters;
 
-import main.api.CityNode;
-import main.api.Firefighter;
+import com.appian.api.CityNode;
+import com.appian.api.Firefighter;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class FirefighterImpl implements Firefighter {

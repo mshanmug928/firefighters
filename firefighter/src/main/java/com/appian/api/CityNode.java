@@ -1,4 +1,4 @@
-package main.api;
+package com.appian.api;
 
 import java.util.Objects;
 
