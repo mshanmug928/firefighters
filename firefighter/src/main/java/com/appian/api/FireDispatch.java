@@ -1,6 +1,7 @@
 package com.appian.api;
 
 import java.util.List;
+import com.appian.api.exceptions.InvalidFirefighterException;
 
 public interface FireDispatch {
 
@@ -8,7 +9,7 @@ public interface FireDispatch {
    * Hires a number of firefighters
    * @param numFirefighters
    */
-  void setFirefighters(int numFirefighters);
+  void setFirefighters(int numFirefighters) throws InvalidFirefighterException;
 
   /**
    * Get the list of firefighters

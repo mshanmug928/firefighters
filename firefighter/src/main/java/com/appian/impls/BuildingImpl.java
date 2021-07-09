@@ -16,7 +16,7 @@ public class BuildingImpl implements Building {
     this.isBurning = false;
   }
 
-  BuildingImpl(CityNode location, boolean fireproof) {
+  protected BuildingImpl(CityNode location, boolean fireproof) {
     this.location = location;
     this.fireproof = fireproof;
     this.isBurning = false;

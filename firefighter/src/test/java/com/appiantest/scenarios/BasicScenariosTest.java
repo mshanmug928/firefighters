@@ -11,11 +11,12 @@ import com.appian.api.FireDispatch;
 import com.appian.api.Firefighter;
 import com.appian.api.Pyromaniac;
 import com.appian.api.exceptions.FireproofBuildingException;
+import com.appian.api.exceptions.InvalidFirefighterException;
 import com.appian.impls.CityImpl;
 
 public class BasicScenariosTest {
   @Test
-  public void singleFire() throws FireproofBuildingException {
+  public void singleFire() throws FireproofBuildingException, InvalidFirefighterException {
     City basicCity = new CityImpl(5, 5, new CityNode(0, 0));
     FireDispatch fireDispatch = basicCity.getFireDispatch();
 
@@ -28,7 +29,7 @@ public class BasicScenariosTest {
   }
 
   @Test
-  public void singleFireDistanceTraveledDiagonal() throws FireproofBuildingException {
+  public void singleFireDistanceTraveledDiagonal() throws FireproofBuildingException, InvalidFirefighterException {
     City basicCity = new CityImpl(2, 2, new CityNode(0, 0));
     FireDispatch fireDispatch = basicCity.getFireDispatch();
 
@@ -45,7 +46,7 @@ public class BasicScenariosTest {
   }
 
   @Test
-  public void singleFireDistanceTraveledAdjacent() throws FireproofBuildingException {
+  public void singleFireDistanceTraveledAdjacent() throws FireproofBuildingException, InvalidFirefighterException {
     City basicCity = new CityImpl(2, 2, new CityNode(0, 0));
     FireDispatch fireDispatch = basicCity.getFireDispatch();
 
@@ -62,7 +63,7 @@ public class BasicScenariosTest {
   }
 
   @Test
-  public void simpleDoubleFire() throws FireproofBuildingException {
+  public void simpleDoubleFire() throws FireproofBuildingException, InvalidFirefighterException {
     City basicCity = new CityImpl(2, 2, new CityNode(0, 0));
     FireDispatch fireDispatch = basicCity.getFireDispatch();
 
@@ -83,7 +84,7 @@ public class BasicScenariosTest {
   }
 
   @Test
-  public void doubleFirefighterDoubleFire() throws FireproofBuildingException {
+  public void doubleFirefighterDoubleFire() throws FireproofBuildingException, InvalidFirefighterException {
     City basicCity = new CityImpl(2, 2, new CityNode(0, 0));
     FireDispatch fireDispatch = basicCity.getFireDispatch();
 

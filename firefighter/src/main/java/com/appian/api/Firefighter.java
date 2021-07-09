@@ -16,4 +16,10 @@ public interface Firefighter {
    * @return the total distance traveled by this firefighter
    */
   int distanceTraveled();
+
+  /**
+   * Update the firefighter's new location. This will automatically update the
+   * distance traveled metric as well
+   */
+  void updateLocation(CityNode node);
 }
